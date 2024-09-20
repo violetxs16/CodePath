@@ -14,9 +14,8 @@ def find_missing_clues(clues, lower, upper):
     for i in range(lower,upper):
         if i not in clues:
             missing_clues.append(i)
-    
     return missing_clues
-#Example Usage:
+
 
 clues = [0, 1, 3, 50, 75]
 lower = 0
