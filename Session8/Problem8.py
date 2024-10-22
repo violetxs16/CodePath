@@ -22,7 +22,8 @@ def find_closest_nft_values(nft_values, budget):
         end -= 1
     end += 1
     return (nft_values[start], nft_values[end])
-
+#Space complexity: O(1)
+#Time complexity: 0(N)
 #Example Usage:
 
 nft_values = [3.5, 5.4, 7.2, 9.0, 10.5]
